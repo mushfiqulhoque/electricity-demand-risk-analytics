@@ -1,0 +1,26 @@
+# Python environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Raw dataset and downloaded archives
+data/raw/
+*.zip
+
+# Backup files
+*.backup
+*.bak
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+data/processed/*.backup
